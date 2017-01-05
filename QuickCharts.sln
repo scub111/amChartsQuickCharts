@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{34537016-2DAB-4F92-A543-F24FEC55F5D5}"
+	ProjectSection(SolutionItems) = preProject
+		QuickChartsWPF\docs\changelog.txt = QuickChartsWPF\docs\changelog.txt
+		QuickChartsWPF\docs\license.txt = QuickChartsWPF\docs\license.txt
+		QuickChartsWPF\docs\readme.txt = QuickChartsWPF\docs\readme.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickCharts", "QuickCharts\QuickCharts.csproj", "{724CD76B-998A-49F1-BCB2-AAD9132E6D07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickChartsWPF", "QuickChartsWPF\QuickChartsWPF.csproj", "{6A7C16D6-B63C-4006-9F20-E9D6D4EBA09C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickChartsSL", "QuickChartsSL\QuickChartsSL.csproj", "{14CA26A9-E5D8-4E18-A058-F38B73AB98F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickChartsSLApp", "QuickChartsSLApp\QuickChartsSLApp.csproj", "{755FCD57-7747-4310-992B-CE1387782306}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{724CD76B-998A-49F1-BCB2-AAD9132E6D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724CD76B-998A-49F1-BCB2-AAD9132E6D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724CD76B-998A-49F1-BCB2-AAD9132E6D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724CD76B-998A-49F1-BCB2-AAD9132E6D07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7C16D6-B63C-4006-9F20-E9D6D4EBA09C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7C16D6-B63C-4006-9F20-E9D6D4EBA09C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7C16D6-B63C-4006-9F20-E9D6D4EBA09C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7C16D6-B63C-4006-9F20-E9D6D4EBA09C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14CA26A9-E5D8-4E18-A058-F38B73AB98F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14CA26A9-E5D8-4E18-A058-F38B73AB98F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14CA26A9-E5D8-4E18-A058-F38B73AB98F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14CA26A9-E5D8-4E18-A058-F38B73AB98F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{755FCD57-7747-4310-992B-CE1387782306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755FCD57-7747-4310-992B-CE1387782306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755FCD57-7747-4310-992B-CE1387782306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755FCD57-7747-4310-992B-CE1387782306}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

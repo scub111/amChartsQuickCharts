@@ -1,0 +1,21 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    >
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/AmCharts.Windows.QuickCharts;component/Themes/SerialChart.xaml" />
+        <ResourceDictionary Source="/AmCharts.Windows.QuickCharts;component/Themes/ValueAxis.xaml" />
+        <ResourceDictionary Source="/AmCharts.Windows.QuickCharts;component/Themes/ValueGrid.xaml" />
+        <ResourceDictionary Source="/AmCharts.Windows.QuickCharts;component/Themes/CategoryAxis.xaml" />
+        <ResourceDictionary Source="/AmCharts.Windows.QuickCharts;component/Themes/ColumnGraph.xaml" />
+        <ResourceDictionary Source="/AmCharts.Windows.QuickCharts;component/Themes/LineGraph.xaml" />
+        <ResourceDictionary Source="/AmCharts.Windows.QuickCharts;component/Themes/AreaGraph.xaml" />
+        <ResourceDictionary Source="/AmCharts.Windows.QuickCharts;component/Themes/Legend.xaml" />
+        <ResourceDictionary Source="/AmCharts.Windows.QuickCharts;component/Themes/Indicator.xaml" />
+        <ResourceDictionary Source="/AmCharts.Windows.QuickCharts;component/Themes/PieChart.xaml" />
+        <ResourceDictionary Source="/AmCharts.Windows.QuickCharts;component/Themes/Slice.xaml" />
+        <ResourceDictionary Source="/AmCharts.Windows.QuickCharts;component/Themes/Balloon.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+
+</ResourceDictionary>

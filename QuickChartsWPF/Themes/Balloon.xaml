@@ -1,0 +1,23 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:amq="clr-namespace:AmCharts.Windows.QuickCharts"
+                    >
+
+    <Style TargetType="amq:Balloon">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="amq:Balloon">
+                    <Border Background="#BEFFFFFF"
+                            BorderBrush="{TemplateBinding BorderBrush}"                            
+                            BorderThickness="1"
+                            CornerRadius="4"
+                            Padding="5"
+                            >
+                        <!--BorderThickness="{TemplateBinding BorderThickness}"-->
+                        <TextBlock Text="{TemplateBinding Text}" />
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

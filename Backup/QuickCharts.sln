@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{34537016-2DAB-4F92-A543-F24FEC55F5D5}"
+	ProjectSection(SolutionItems) = preProject
+		QuickChartsWPF\docs\changelog.txt = QuickChartsWPF\docs\changelog.txt
+		QuickChartsWPF\docs\license.txt = QuickChartsWPF\docs\license.txt
+		QuickChartsWPF\docs\readme.txt = QuickChartsWPF\docs\readme.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickCharts", "QuickCharts\QuickCharts.csproj", "{724CD76B-998A-49F1-BCB2-AAD9132E6D07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickChartsWPF", "QuickChartsWPF\QuickChartsWPF.csproj", "{6A7C16D6-B63C-4006-9F20-E9D6D4EBA09C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickChartsSL", "QuickChartsSL\QuickChartsSL.csproj", "{14CA26A9-E5D8-4E18-A058-F38B73AB98F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickChartsSLApp", "QuickChartsSLApp\QuickChartsSLApp.csproj", "{755FCD57-7747-4310-992B-CE1387782306}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickChartsWPFMetadata", "QuickChartsWPFMetadata\QuickChartsWPFMetadata.csproj", "{2448A67D-3625-4F92-BE11-86BC6B595F44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickChartsWPFMetadataBlend", "QuickChartsWPFMetadataBlend\QuickChartsWPFMetadataBlend.csproj", "{673CC934-2466-49BC-8D58-0023B7D06249}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickChartsSLMetadataBlend", "QuickChartsSLMetadataBlend\QuickChartsSLMetadataBlend.csproj", "{D5E67404-C080-4F95-B75A-108A2053FB57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickChartsWP", "QuickChartsWP\QuickChartsWP.csproj", "{31FDBFD7-6F93-4D3C-8C1A-58D87E915EC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickChartsSLMetadata", "QuickChartsSLMetadata\QuickChartsSLMetadata.csproj", "{3AB3B532-3C79-4808-9ED9-6268C031ABD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickChartsWPMetadata", "QuickChartsWPMetadata\QuickChartsWPMetadata.csproj", "{E559C06F-8813-44EA-A0EE-9B992B8505A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickChartsWP7App", "QuickChartsWP7App\QuickChartsWP7App.csproj", "{135FED75-9BFE-424D-8871-CE7EABBFBA9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{724CD76B-998A-49F1-BCB2-AAD9132E6D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724CD76B-998A-49F1-BCB2-AAD9132E6D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724CD76B-998A-49F1-BCB2-AAD9132E6D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724CD76B-998A-49F1-BCB2-AAD9132E6D07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7C16D6-B63C-4006-9F20-E9D6D4EBA09C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7C16D6-B63C-4006-9F20-E9D6D4EBA09C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7C16D6-B63C-4006-9F20-E9D6D4EBA09C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7C16D6-B63C-4006-9F20-E9D6D4EBA09C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14CA26A9-E5D8-4E18-A058-F38B73AB98F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14CA26A9-E5D8-4E18-A058-F38B73AB98F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14CA26A9-E5D8-4E18-A058-F38B73AB98F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14CA26A9-E5D8-4E18-A058-F38B73AB98F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{755FCD57-7747-4310-992B-CE1387782306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755FCD57-7747-4310-992B-CE1387782306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755FCD57-7747-4310-992B-CE1387782306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755FCD57-7747-4310-992B-CE1387782306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2448A67D-3625-4F92-BE11-86BC6B595F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2448A67D-3625-4F92-BE11-86BC6B595F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2448A67D-3625-4F92-BE11-86BC6B595F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2448A67D-3625-4F92-BE11-86BC6B595F44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{673CC934-2466-49BC-8D58-0023B7D06249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{673CC934-2466-49BC-8D58-0023B7D06249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{673CC934-2466-49BC-8D58-0023B7D06249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{673CC934-2466-49BC-8D58-0023B7D06249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5E67404-C080-4F95-B75A-108A2053FB57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E67404-C080-4F95-B75A-108A2053FB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E67404-C080-4F95-B75A-108A2053FB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E67404-C080-4F95-B75A-108A2053FB57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31FDBFD7-6F93-4D3C-8C1A-58D87E915EC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31FDBFD7-6F93-4D3C-8C1A-58D87E915EC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31FDBFD7-6F93-4D3C-8C1A-58D87E915EC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31FDBFD7-6F93-4D3C-8C1A-58D87E915EC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AB3B532-3C79-4808-9ED9-6268C031ABD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AB3B532-3C79-4808-9ED9-6268C031ABD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AB3B532-3C79-4808-9ED9-6268C031ABD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AB3B532-3C79-4808-9ED9-6268C031ABD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E559C06F-8813-44EA-A0EE-9B992B8505A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E559C06F-8813-44EA-A0EE-9B992B8505A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E559C06F-8813-44EA-A0EE-9B992B8505A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E559C06F-8813-44EA-A0EE-9B992B8505A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{135FED75-9BFE-424D-8871-CE7EABBFBA9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{135FED75-9BFE-424D-8871-CE7EABBFBA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{135FED75-9BFE-424D-8871-CE7EABBFBA9D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{135FED75-9BFE-424D-8871-CE7EABBFBA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{135FED75-9BFE-424D-8871-CE7EABBFBA9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{135FED75-9BFE-424D-8871-CE7EABBFBA9D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

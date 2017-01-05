@@ -1,0 +1,19 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    >
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/AmCharts.Windows.QuickCharts.SL;component/Themes/SerialChart.xaml" />
+        <ResourceDictionary Source="/AmCharts.Windows.QuickCharts.SL;component/Themes/ValueAxis.xaml" />
+        <ResourceDictionary Source="/AmCharts.Windows.QuickCharts.SL;component/Themes/ValueGrid.xaml" />
+        <ResourceDictionary Source="/AmCharts.Windows.QuickCharts.SL;component/Themes/CategoryAxis.xaml" />
+        <ResourceDictionary Source="/AmCharts.Windows.QuickCharts.SL;component/Themes/ColumnGraph.xaml" />
+        <ResourceDictionary Source="/AmCharts.Windows.QuickCharts.SL;component/Themes/LineGraph.xaml" />
+        <ResourceDictionary Source="/AmCharts.Windows.QuickCharts.SL;component/Themes/AreaGraph.xaml" />
+        <ResourceDictionary Source="/AmCharts.Windows.QuickCharts.SL;component/Themes/Legend.xaml" />
+        <ResourceDictionary Source="/AmCharts.Windows.QuickCharts.SL;component/Themes/Indicator.xaml" />
+        <ResourceDictionary Source="/AmCharts.Windows.QuickCharts.SL;component/Themes/PieChart.xaml" />
+        <ResourceDictionary Source="/AmCharts.Windows.QuickCharts.SL;component/Themes/Slice.xaml" />
+        <ResourceDictionary Source="/AmCharts.Windows.QuickCharts.SL;component/Themes/Balloon.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>
